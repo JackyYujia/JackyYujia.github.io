@@ -3,124 +3,168 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="description" content="曹雨佳的 AI Infra、后端系统与云基础设施技术博客。">
+  <meta name="description" content="曹雨佳的个人主页：AI Infra、后端系统、云基础设施与大模型推理。">
   <meta name="theme-color" content="#17171a">
-  <title>caoyujia / Notebook</title>
+  <meta property="og:title" content="caoyujia / AI Infra Engineer">
+  <meta property="og:description" content="AI Infra、后端系统、云基础设施与大模型推理。">
+  <meta property="og:type" content="website">
+  <title>caoyujia / AI Infra Engineer</title>
   <link rel="stylesheet" href="assets/css/style.css">
 </head>
-<body data-page="home">
+<body id="top" class="profile-home">
   <div class="mobile-overlay"></div>
-  <aside class="sidebar" aria-label="侧边导航">
+  <aside class="sidebar" aria-label="个人主页导航">
     <div class="profile">
-      <a href="/" aria-label="返回首页"><img class="avatar" src="assets/img/avatar.jpg" alt="曹雨佳头像"></a>
-      <a class="site-title" href="/">caoyujia</a>
+      <a href="#top" aria-label="返回顶部"><img class="avatar" src="assets/img/avatar.jpg" alt="曹雨佳头像"></a>
+      <a class="site-title" href="#top">caoyujia</a>
       <p class="site-subtitle">把复杂系统做成可靠的基础设施。</p>
       <div class="site-label">AI INFRA / BACKEND / SYSTEMS</div>
     </div>
-    <nav class="nav" aria-label="主导航">
-      <a class="nav-link" aria-current="page" href="/"><span class="nav-icon">⌂</span>首页</a>
-      <a class="nav-link" href="/categories/"><span class="nav-icon">#</span>分类</a>
-      <a class="nav-link" href="/tags/"><span class="nav-icon">+</span>标签</a>
-      <a class="nav-link" href="/archives/"><span class="nav-icon">◫</span>归档</a>
-      <a class="nav-link" href="/about/"><span class="nav-icon">i</span>关于</a>
+    <nav class="nav" aria-label="主页章节">
+      <a class="nav-link" aria-current="page" href="#top"><span class="nav-icon">⌂</span>主页</a>
+      <a class="nav-link" href="#experience"><span class="nav-icon">↳</span>经历</a>
+      <a class="nav-link" href="#projects"><span class="nav-icon">□</span>项目</a>
+      <a class="nav-link" href="#research"><span class="nav-icon">∴</span>研究</a>
+      <a class="nav-link" href="#contact"><span class="nav-icon">@</span>联系</a>
     </nav>
     <div class="sidebar-bottom">
       <a href="https://github.com/world-cyj" target="_blank" rel="noreferrer" aria-label="GitHub" title="GitHub">GH</a>
       <a href="mailto:cyj2582329754@gmail.com" aria-label="Email" title="Email">@</a>
-      <a href="/feed.xml" aria-label="RSS" title="RSS">RSS</a>
+      <a href="https://world-cyj.github.io/" aria-label="个人主页" title="主页">WEB</a>
     </div>
   </aside>
 
   <main class="site-main">
     <header class="topbar">
-      <div class="breadcrumb"><strong>HOME</strong> <span>/</span> NOTEBOOK</div>
+      <div class="breadcrumb"><strong>PROFILE</strong> <span>/</span> CAOYUJIA</div>
       <div class="topbar-actions">
         <button class="icon-button mobile-menu" data-menu-toggle aria-label="打开导航" aria-expanded="false" title="打开导航">☰</button>
-        <label class="search" aria-label="搜索文章">
-          <span class="search-icon">⌕</span>
-          <input data-search-input type="search" placeholder="搜索文章..." autocomplete="off">
-        </label>
         <button class="icon-button" data-theme-toggle aria-label="切换主题" title="切换主题">◐</button>
       </div>
     </header>
 
-    <div class="page-wrap">
-      <div class="content-grid">
-        <section class="content">
-          <section class="hero">
-            <div class="eyebrow">CAOYUJIA'S NOTEBOOK / 2026</div>
-            <h1>AI Infra<br>与后端系统。</h1>
-            <p>记录大模型推理、云基础设施、GPU 性能和后端工程中的问题、判断与实践。</p>
-            <div class="hero-meta">
-              <a class="tag" href="/tags/ai-infra/">AI Infra</a>
-              <a class="tag" href="/tags/llm-inference/">LLM Inference</a>
-              <a class="tag" href="/tags/backend/">Backend</a>
-              <a class="tag" href="/tags/cloud-native/">Cloud Native</a>
-            </div>
-          </section>
+    <div class="page-wrap home-wrap">
+      <section class="home-hero" aria-labelledby="profile-title">
+        <div class="hero-kicker">CAOYUJIA / SHENZHEN / 2026</div>
+        <h1 id="profile-title">做大模型系统，<br><span>也做让系统可靠的基础设施。</span></h1>
+        <p class="hero-summary">我是曹雨佳，专注于 AI Infra、后端系统和云基础设施。关注推理性能、缓存传输、资源调度，以及把复杂系统变成可以观察、验证和演进的工程。</p>
+        <div class="hero-actions">
+          <a class="primary-action" href="mailto:cyj2582329754@gmail.com">联系我 <span>↗</span></a>
+          <a class="secondary-action" href="https://github.com/world-cyj" target="_blank" rel="noreferrer">GitHub <span>↗</span></a>
+        </div>
+        <div class="hero-facts" aria-label="个人概览">
+          <div><span>ROLE</span><strong>AI Infra / Backend</strong></div>
+          <div><span>BASED IN</span><strong>Shenzhen, China</strong></div>
+          <div><span>EDUCATION</span><strong>Shenzhen University · MSc</strong></div>
+        </div>
+      </section>
 
-          <div class="section-head">
-            <h2>最新文章</h2>
-            <p>4 NOTES / 2026</p>
+      <section class="home-section now-section" aria-labelledby="now-title">
+        <div class="section-marker">NOW</div>
+        <div class="now-grid">
+          <div>
+            <h2 id="now-title">现在的工作<br>落在三个层次。</h2>
+            <p>从服务接口到推理引擎，再到承载它们的算力基础设施，我喜欢沿着数据和状态的生命周期看系统。</p>
           </div>
-
-          <div class="post-list">
-            <a class="post-card" data-searchable="minivllm qwen3-32b llm inference kv cache backend ai infra" href="/posts/2026-08-24-minivllm-qwen3-32b.html">
-              <h3>用 Mini-vLLM 理解一条推理请求</h3>
-              <p class="post-excerpt">从调度器、BlockManager 到 KV Cache，拆开一次请求从进入队列到生成 token 的关键路径。</p>
-              <div class="post-meta"><span>2026.08.24</span><span class="accent">LLM Inference</span><span>8 min read</span></div>
-            </a>
-            <a class="post-card" data-searchable="kv cache pd separation inference ai infra distributed systems" href="/posts/2026-08-18-kv-cache-pd-separation.html">
-              <h3>PD 分离之后，KV Cache 成了什么</h3>
-              <p class="post-excerpt">从 Prefill / Decode 的职责分工出发，理解缓存传输、复用和冷热迁移为什么会成为系统问题。</p>
-              <div class="post-meta"><span>2026.08.18</span><span class="accent">AI Infra</span><span>10 min read</span></div>
-            </a>
-            <a class="post-card" data-searchable="cutlass cuda gpu benchmark gemm performance baidu backend" href="/posts/2026-08-10-cutlass-gpu-benchmark.html">
-              <h3>GPU Benchmark 不只是跑一个数字</h3>
-              <p class="post-excerpt">从 GEMM 数据类型、硬件代际和编译参数出发，记录一次 CUTLASS Benchmark 的工程化思路。</p>
-              <div class="post-meta"><span>2026.08.10</span><span class="accent">GPU / CUDA</span><span>7 min read</span></div>
-            </a>
-            <a class="post-card" data-searchable="ai system performance lab cloud native resource scheduling research" href="/posts/2026-07-30-ai-system-performance-lab.html">
-              <h3>把 AI Systems 学习做成可复现的实验</h3>
-              <p class="post-excerpt">代码、基准、观察和结论如何放在一起，形成一个能持续迭代的性能实验工作台。</p>
-              <div class="post-meta"><span>2026.07.30</span><span class="accent">Research</span><span>6 min read</span></div>
-            </a>
+          <div class="now-list">
+            <div class="now-item"><span class="now-index">01</span><div><strong>AI Systems</strong><small>LLM Inference · KV Cache · PD 分离</small></div></div>
+            <div class="now-item"><span class="now-index">02</span><div><strong>Cloud Infrastructure</strong><small>资源管理 · 多设备迁移 · 稳定性</small></div></div>
+            <div class="now-item"><span class="now-index">03</span><div><strong>Backend Engineering</strong><small>Go Services · API · 可观测性</small></div></div>
           </div>
-          <div class="search-empty">没有找到匹配的文章。换个关键词试试。</div>
-        </section>
+        </div>
+      </section>
 
-        <aside class="right-rail" aria-label="侧边信息">
-          <section class="rail-section">
-            <h2>Recently Updated</h2>
-            <ul class="rail-list">
-              <li><a href="/posts/2026-08-24-minivllm-qwen3-32b.html">用 Mini-vLLM 理解一条推理请求</a></li>
-              <li><a href="/posts/2026-08-18-kv-cache-pd-separation.html">PD 分离之后，KV Cache 成了什么</a></li>
-              <li><a href="/posts/2026-08-10-cutlass-gpu-benchmark.html">GPU Benchmark 不只是跑一个数字</a></li>
-              <li><a href="/posts/2026-07-30-ai-system-performance-lab.html">把 AI Systems 学习做成可复现的实验</a></li>
-            </ul>
-          </section>
-          <section class="rail-section">
-            <h2>Selected Work</h2>
-            <div class="work-list">
-              <a class="work-item" href="https://github.com/world-cyj/MinivLLM_plus" target="_blank" rel="noreferrer"><span><strong>MinivLLM_plus</strong><small>inference engine</small></span><span class="work-arrow">↗</span></a>
-              <a class="work-item" href="https://github.com/world-cyj/AI-System-Performance-Lab" target="_blank" rel="noreferrer"><span><strong>AI System Performance Lab</strong><small>learning / fork</small></span><span class="work-arrow">↗</span></a>
+      <section id="experience" class="home-section" aria-labelledby="experience-title">
+        <div class="section-marker">EXPERIENCE</div>
+        <div class="section-heading-row"><h2 id="experience-title">在真实系统里工作。</h2><span>2025 — NOW</span></div>
+        <div class="experience-list">
+          <article class="experience-item">
+            <div class="experience-time">2026.05<br>至今</div>
+            <div class="experience-main">
+              <h3>百度国际科技（深圳）有限公司</h3>
+              <p class="experience-role">IaaS 研发实习生（后台功能开发）</p>
+              <p>参与 AICP / OPS 平台后台能力建设，面向分布式云边缘资源管理场景开发 Go 后端功能，并开展 GPU Benchmark / CUTLASS 实践。</p>
             </div>
-          </section>
-          <section class="rail-section">
-            <h2>Trending Tags</h2>
-            <div class="rail-tags">
-              <a class="tag" href="/tags/ai-infra/">AI Infra</a>
-              <a class="tag" href="/tags/llm-inference/">LLM</a>
-              <a class="tag" href="/tags/gpu/">GPU</a>
-              <a class="tag" href="/tags/backend/">Backend</a>
-              <a class="tag" href="/tags/research/">Research</a>
+            <div class="experience-domain">CLOUD<br>EDGE</div>
+          </article>
+          <article class="experience-item">
+            <div class="experience-time">2025.03<br>2026.01</div>
+            <div class="experience-main">
+              <h3>深圳华为云计算技术有限公司</h3>
+              <p class="experience-role">AI Infra / 后端开发实习生</p>
+              <p>参与 FlexNPU 大模型推理基础设施研发，围绕 PD 分离下的 KV Cache 传输、D2D 数据搬运与冷热迁移开展工程验证。</p>
             </div>
-          </section>
-        </aside>
-      </div>
-      <footer class="site-footer">
+            <div class="experience-domain">AI<br>INFRA</div>
+          </article>
+        </div>
+      </section>
+
+      <section id="projects" class="home-section" aria-labelledby="projects-title">
+        <div class="section-marker">SELECTED WORK</div>
+        <div class="section-heading-row"><h2 id="projects-title">把兴趣变成可以运行的东西。</h2><span>PUBLIC / LEARNING</span></div>
+        <div class="project-grid">
+          <article class="project-feature">
+            <div class="project-topline"><span>01 / INFERENCE ENGINE</span><a href="https://github.com/world-cyj/MinivLLM_plus" target="_blank" rel="noreferrer" aria-label="打开 MinivLLM_plus">↗</a></div>
+            <h3>MinivLLM_plus</h3>
+            <p>围绕 Mini-vLLM 的推理流程进行学习与实现，关注调度、Continuous Batching、PagedAttention 和 KV Cache 的关键路径。</p>
+            <div class="project-tags"><span>Python</span><span>PyTorch</span><span>KV Cache</span></div>
+          </article>
+          <article class="project-card">
+            <div class="project-topline"><span>02 / SYSTEMS PRACTICE</span><a href="https://github.com/world-cyj/AI-System-Performance-Lab" target="_blank" rel="noreferrer" aria-label="打开 AI System Performance Lab">↗</a></div>
+            <h3>AI System Performance Lab</h3>
+            <p>学习 / 研究实践项目，记录 GPU、推理服务和系统性能分析。</p>
+            <div class="project-tags"><span>CUDA</span><span>GPU</span><span>Fork</span></div>
+          </article>
+          <article class="project-card project-card-accent">
+            <div class="project-topline"><span>03 / PERFORMANCE</span><span class="project-signal">●</span></div>
+            <h3>GPU Benchmark / CUTLASS</h3>
+            <p>从 GEMM 数据类型、硬件代际和编译参数出发，构建可解释的性能实验。</p>
+            <div class="project-tags"><span>CUTLASS</span><span>GEMM</span><span>Benchmark</span></div>
+          </article>
+        </div>
+      </section>
+
+      <section id="research" class="home-section research-section" aria-labelledby="research-title">
+        <div class="section-marker">RESEARCH & LEARNING</div>
+        <div class="research-grid">
+          <div>
+            <h2 id="research-title">把问题留在<br>系统的上下文里。</h2>
+            <p>研究兴趣集中在分域 AI 加速器、多租户推理调度、推理性能建模与资源形态感知。</p>
+          </div>
+          <div class="research-list">
+            <div class="research-row"><span>01</span><div><strong>Mini-vLLM + Qwen3-32B</strong><p>调度、Prefix Cache、Decode Kernel 与压力测试。</p></div></div>
+            <div class="research-row"><span>02</span><div><strong>第一作者专利交底</strong><p>一种分域 AI 加速器多租户推理的资源形态感知调度方法及系统。</p></div></div>
+            <div class="research-row"><span>03</span><div><strong>论文投稿</strong><p>KSEM 2025 / SoCC 2026，状态以投稿记录为准。</p></div></div>
+          </div>
+        </div>
+      </section>
+
+      <section class="home-section toolkit-section" aria-labelledby="toolkit-title">
+        <div class="section-marker">TOOLKIT</div>
+        <div class="section-heading-row"><h2 id="toolkit-title">我用什么把系统做出来。</h2><span>LANGUAGE → PLATFORM</span></div>
+        <div class="toolkit-grid">
+          <div><span>LANGUAGES</span><strong>Go · C++ · Python</strong></div>
+          <div><span>BACKEND</span><strong>MySQL · Docker · Kubernetes</strong></div>
+          <div><span>AI SYSTEMS</span><strong>vLLM · Triton · PyTorch · CUDA</strong></div>
+          <div><span>PLATFORM</span><strong>Prometheus · Grafana · Ascend</strong></div>
+        </div>
+      </section>
+
+      <section id="contact" class="home-section contact-section" aria-labelledby="contact-title">
+        <div class="contact-copy">
+          <div class="section-marker">CONTACT</div>
+          <h2 id="contact-title">一起把系统<br>做得更清楚。</h2>
+          <p>如果你正在做 AI Infra、后端平台或大模型推理系统，欢迎交流。</p>
+        </div>
+        <div class="contact-links">
+          <a href="mailto:cyj2582329754@gmail.com"><span>Email</span><strong>cyj2582329754@gmail.com</strong><span>↗</span></a>
+          <a href="https://github.com/world-cyj" target="_blank" rel="noreferrer"><span>GitHub</span><strong>github.com/world-cyj</strong><span>↗</span></a>
+        </div>
+      </section>
+
+      <footer class="site-footer home-footer">
         <span>© <span data-year>2026</span> caoyujia</span>
-        <span>Built with HTML / CSS / JavaScript</span>
+        <span>AI Infra / Backend / Systems</span>
       </footer>
     </div>
   </main>
