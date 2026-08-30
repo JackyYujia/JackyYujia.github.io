@@ -25,6 +25,7 @@
       <a class="nav-link" href="#experience"><span class="nav-icon">↳</span>经历</a>
       <a class="nav-link" href="#research"><span class="nav-icon">∴</span>研究</a>
       <a class="nav-link" href="#projects"><span class="nav-icon">□</span>项目</a>
+      <a class="nav-link" href="#repository-map"><span class="nav-icon">≡</span>仓库</a>
       <a class="nav-link" href="#contact"><span class="nav-icon">@</span>联系</a>
     </nav>
     <div class="sidebar-bottom">
@@ -123,6 +124,28 @@
         </div>
       </section>
 
+      <section class="home-section study-index-section" aria-labelledby="study-index-title">
+        <div class="section-marker">STUDY INDEX</div>
+        <div class="section-heading-row"><h2 id="study-index-title">一份持续展开的<br>AI Infra 目录。</h2><span>NOTES / EXPERIMENTS / REVIEWS</span></div>
+        <div class="study-index-grid">
+          <div class="study-column">
+            <div class="study-column-head"><span>01 — SYSTEMS</span><span>7 topics</span></div>
+            <a class="study-item" href="#research"><strong>PD 分离</strong><span>Mooncake · P2P · Layerwise Cache · 1P1D</span><b>↗</b></a>
+            <a class="study-item" href="#research"><strong>vLLM</strong><span>vLLM v1 · Scheduler · Prefix Cache · FlashMLA</span><b>↗</b></a>
+            <a class="study-item" href="#research"><strong>SGLang</strong><span>Memory Manager · Chunked Prefill · Router · Source</span><b>↗</b></a>
+            <a class="study-item" href="#research"><strong>KV Cache</strong><span>Cache Reuse · P2P Transfer · Multi-level Cache</span><b>↗</b></a>
+          </div>
+          <div class="study-column">
+            <div class="study-column-head"><span>02 — HARDWARE</span><span>6 topics</span></div>
+            <a class="study-item" href="#research"><strong>GPU / GEMM</strong><span>CUDA · CUTLASS · TensorOp · SIMT · nsys / ncu</span><b>↗</b></a>
+            <a class="study-item" href="#research"><strong>DeepSeek / Qwen</strong><span>R1 · V4 · Qwen3-30B-A3B-FP8 · 4090</span><b>↗</b></a>
+            <a class="study-item" href="#research"><strong>TensorRT-LLM</strong><span>Runtime · kernels · deployment notes</span><b>↗</b></a>
+            <a class="study-item" href="#research"><strong>NPU / FlexNPU</strong><span>Ascend 910B3 · D2D · migration · restore</span><b>↗</b></a>
+          </div>
+        </div>
+        <div class="study-footnote">学习资料覆盖从模型、调度和缓存，到通信、kernel、硬件和服务交付的完整链路。</div>
+      </section>
+
       <section id="projects" class="home-section" aria-labelledby="projects-title">
         <div class="section-marker">SELECTED WORK</div>
         <div class="section-heading-row"><h2 id="projects-title">代码、实验和判断。</h2><span>PUBLIC / PRACTICE</span></div>
@@ -145,6 +168,27 @@
             <p>从资源管理、运营排障到可观测性，把 AI Infra 做成可交付的服务。</p>
             <div class="project-tags"><span>Go</span><span>Kubernetes</span><span>Grafana</span></div>
           </article>
+        </div>
+      </section>
+
+      <section id="repository-map" class="home-section repository-section" aria-labelledby="repository-title">
+        <div class="section-marker">PUBLIC REPOSITORY MAP</div>
+        <div class="section-heading-row"><h2 id="repository-title">公开仓库不是清单，<br>是工作轨迹。</h2><span>WORLD-CYJ / PUBLIC</span></div>
+        <div class="repository-grid">
+          <div class="repository-group">
+            <div class="repository-group-head"><span>AI SYSTEMS</span><span>ORIGINAL / PRACTICE</span></div>
+            <a class="repository-row" href="https://github.com/world-cyj/MinivLLM_plus" target="_blank" rel="noreferrer"><strong>MinivLLM_plus</strong><span>Mini-vLLM inference engine</span><b>↗</b></a>
+            <a class="repository-row" href="https://github.com/world-cyj/Single-Card-Multi-Model-Colocation" target="_blank" rel="noreferrer"><strong>Single-Card-Multi-Model-Colocation</strong><span>multi-model colocation</span><b>↗</b></a>
+            <a class="repository-row" href="https://github.com/world-cyj/adapnpu_serve" target="_blank" rel="noreferrer"><strong>adapnpu_serve</strong><span>inference service research</span><b>↗</b></a>
+            <a class="repository-row" href="https://github.com/world-cyj/npu_ie" target="_blank" rel="noreferrer"><strong>npu_ie</strong><span>NPU engineering practice</span><b>↗</b></a>
+          </div>
+          <div class="repository-group">
+            <div class="repository-group-head"><span>BACKEND / LEARNING</span><span>PUBLIC / FORK MARKED</span></div>
+            <a class="repository-row" href="https://github.com/world-cyj/12306_demo" target="_blank" rel="noreferrer"><strong>12306_demo</strong><span>Java backend practice</span><b>↗</b></a>
+            <a class="repository-row" href="https://github.com/world-cyj/claude-code-deep-dive" target="_blank" rel="noreferrer"><strong>claude-code-deep-dive</strong><span>source-code research report</span><b>↗</b></a>
+            <a class="repository-row" href="https://github.com/world-cyj/agent-skills" target="_blank" rel="noreferrer"><strong>agent-skills <em>Fork</em></strong><span>AI coding agent skills</span><b>↗</b></a>
+            <a class="repository-row" href="https://github.com/world-cyj/vllm-omni" target="_blank" rel="noreferrer"><strong>vllm-omni <em>Fork</em></strong><span>omni-modality inference study</span><b>↗</b></a>
+          </div>
         </div>
       </section>
 
