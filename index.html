@@ -4,7 +4,7 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="description" content="曹雨佳的个人主页：AI Infra、后端系统、云基础设施与大模型推理。">
-  <meta name="theme-color" content="#17171a">
+  <meta name="theme-color" content="#f4f7fa">
   <meta property="og:title" content="caoyujia / AI Infra Engineer">
   <meta property="og:description" content="AI Infra、后端系统、云基础设施与大模型推理。">
   <meta property="og:type" content="website">
@@ -23,8 +23,8 @@
     <nav class="nav" aria-label="主页章节">
       <a class="nav-link" aria-current="page" href="#top"><span class="nav-icon">⌂</span>主页</a>
       <a class="nav-link" href="#experience"><span class="nav-icon">↳</span>经历</a>
-      <a class="nav-link" href="#projects"><span class="nav-icon">□</span>项目</a>
       <a class="nav-link" href="#research"><span class="nav-icon">∴</span>研究</a>
+      <a class="nav-link" href="#projects"><span class="nav-icon">□</span>项目</a>
       <a class="nav-link" href="#contact"><span class="nav-icon">@</span>联系</a>
     </nav>
     <div class="sidebar-bottom">
@@ -44,46 +44,57 @@
     </header>
 
     <div class="page-wrap home-wrap">
-      <section class="home-hero" aria-labelledby="profile-title">
-        <div class="hero-kicker">CAOYUJIA / SHENZHEN / 2026</div>
-        <h1 id="profile-title">做大模型系统，<br><span>也做让系统可靠的基础设施。</span></h1>
-        <p class="hero-summary">我是曹雨佳，专注于 AI Infra、后端系统和云基础设施。关注推理性能、缓存传输、资源调度，以及把复杂系统变成可以观察、验证和演进的工程。</p>
-        <div class="hero-actions">
-          <a class="primary-action" href="mailto:cyj2582329754@gmail.com">联系我 <span>↗</span></a>
-          <a class="secondary-action" href="https://github.com/world-cyj" target="_blank" rel="noreferrer">GitHub <span>↗</span></a>
+      <section class="profile-hero" aria-labelledby="profile-title">
+        <div class="profile-hero-main">
+          <div class="hero-kicker">CAOYUJIA / SHENZHEN / AI INFRA</div>
+          <h1 id="profile-title">让模型跑起来，<br><span>让系统稳下来。</span></h1>
+          <p class="hero-summary">我是曹雨佳，专注于 AI Infra、后端系统和云基础设施。我的工作横跨推理引擎、缓存传输、GPU 性能与分布式资源管理。</p>
+          <div class="hero-actions">
+            <a class="primary-action" href="mailto:cyj2582329754@gmail.com">联系我 <span>↗</span></a>
+            <a class="secondary-action" href="https://github.com/world-cyj" target="_blank" rel="noreferrer">查看 GitHub <span>↗</span></a>
+          </div>
         </div>
-        <div class="hero-facts" aria-label="个人概览">
+        <aside class="hero-sidepanel" aria-label="个人状态">
+          <div class="sidepanel-top"><span>PROFILE / 01</span><span class="status-dot">●</span></div>
+          <div class="sidepanel-title">Backend<br>to Silicon.</div>
+          <div class="sidepanel-copy">从 API、调度器和缓存，到 GPU kernel 与计算基础设施。</div>
+          <div class="sidepanel-line"></div>
+          <div class="sidepanel-row"><span>NOW</span><strong>AI Systems</strong></div>
+          <div class="sidepanel-row"><span>BASE</span><strong>Shenzhen</strong></div>
+        </aside>
+        <div class="hero-facts">
           <div><span>ROLE</span><strong>AI Infra / Backend</strong></div>
-          <div><span>BASED IN</span><strong>Shenzhen, China</strong></div>
           <div><span>EDUCATION</span><strong>Shenzhen University · MSc</strong></div>
+          <div><span>FOCUS</span><strong>Inference · Systems · Performance</strong></div>
         </div>
       </section>
 
       <section class="home-section now-section" aria-labelledby="now-title">
-        <div class="section-marker">NOW</div>
+        <div class="section-marker">WORKING MODEL</div>
         <div class="now-grid">
           <div>
-            <h2 id="now-title">现在的工作<br>落在三个层次。</h2>
-            <p>从服务接口到推理引擎，再到承载它们的算力基础设施，我喜欢沿着数据和状态的生命周期看系统。</p>
+            <h2 id="now-title">我习惯从<br>系统边界开始。</h2>
+            <p>一个性能问题通常不只属于某一个组件。我要看的是请求、状态、数据和资源怎样一起流动。</p>
           </div>
           <div class="now-list">
-            <div class="now-item"><span class="now-index">01</span><div><strong>AI Systems</strong><small>LLM Inference · KV Cache · PD 分离</small></div></div>
-            <div class="now-item"><span class="now-index">02</span><div><strong>Cloud Infrastructure</strong><small>资源管理 · 多设备迁移 · 稳定性</small></div></div>
-            <div class="now-item"><span class="now-index">03</span><div><strong>Backend Engineering</strong><small>Go Services · API · 可观测性</small></div></div>
+            <div class="now-item"><span class="now-index">01</span><div><strong>推理系统</strong><small>vLLM · SGLang · TensorRT-LLM · MiniVLLM</small></div></div>
+            <div class="now-item"><span class="now-index">02</span><div><strong>缓存与传输</strong><small>KV Cache · PD 分离 · P2P · D2D · 冷热迁移</small></div></div>
+            <div class="now-item"><span class="now-index">03</span><div><strong>算力与性能</strong><small>CUDA · CUTLASS · GEMM · NCCL-tests · GPU Benchmark</small></div></div>
+            <div class="now-item"><span class="now-index">04</span><div><strong>工程平台</strong><small>Go Services · Kubernetes · Prometheus · Grafana</small></div></div>
           </div>
         </div>
       </section>
 
       <section id="experience" class="home-section" aria-labelledby="experience-title">
         <div class="section-marker">EXPERIENCE</div>
-        <div class="section-heading-row"><h2 id="experience-title">在真实系统里工作。</h2><span>2025 — NOW</span></div>
+        <div class="section-heading-row"><h2 id="experience-title">在真实的算力和服务里工作。</h2><span>2025 — NOW</span></div>
         <div class="experience-list">
           <article class="experience-item">
             <div class="experience-time">2026.05<br>至今</div>
             <div class="experience-main">
               <h3>百度国际科技（深圳）有限公司</h3>
-              <p class="experience-role">IaaS 研发实习生（后台功能开发）</p>
-              <p>参与 AICP / OPS 平台后台能力建设，面向分布式云边缘资源管理场景开发 Go 后端功能，并开展 GPU Benchmark / CUTLASS 实践。</p>
+              <p class="experience-role">IaaS 研发实习生（后台功能开发） · 分布式云边缘计算组</p>
+              <p>参与 AICP / OPS 平台后台能力建设，覆盖智算中心、实例管理、集群服务、白名单配额、准入配置和审计日志等资源管理场景；使用 Go 完成后端接口、DAO / Service 逻辑、联调和问题排查，并参与 GPU Benchmark / CUTLASS 性能实践。</p>
             </div>
             <div class="experience-domain">CLOUD<br>EDGE</div>
           </article>
@@ -91,62 +102,83 @@
             <div class="experience-time">2025.03<br>2026.01</div>
             <div class="experience-main">
               <h3>深圳华为云计算技术有限公司</h3>
-              <p class="experience-role">AI Infra / 后端开发实习生</p>
-              <p>参与 FlexNPU 大模型推理基础设施研发，围绕 PD 分离下的 KV Cache 传输、D2D 数据搬运与冷热迁移开展工程验证。</p>
+              <p class="experience-role">AI Infra / 后端开发实习生 · 云业务架构与设计部（ICT BG）</p>
+              <p>参与 FlexNPU 大模型推理基础设施研发，围绕 PD 分离下的 KV Cache 传输、D2D 数据搬运、冷热迁移和多卡推理任务恢复开展工程验证；关注传输任务生命周期、缓存元信息、状态同步、超时恢复和性能瓶颈。</p>
             </div>
             <div class="experience-domain">AI<br>INFRA</div>
           </article>
         </div>
       </section>
 
+      <section id="research" class="home-section research-section" aria-labelledby="research-title">
+        <div class="section-marker">LEARNING MAP</div>
+        <div class="section-heading-row"><h2 id="research-title">把零散的学习<br>组织成一张地图。</h2><span>AI INFRA / 2026</span></div>
+        <div class="topic-map">
+          <article class="topic-node topic-node-large"><span>01 / PD SEPARATION</span><h3>Prefill / Decode</h3><p>Mooncake 技术调研、vLLM 与 SGLang PD 分离、P2P KV Cache 传输、单实例与多实例对比。</p><div class="topic-bottom">KV Cache · P2P · layerwise</div></article>
+          <article class="topic-node"><span>02 / VLLM</span><h3>推理引擎</h3><p>vLLM v1 性能评测、FlashMLA、Prefix Cache、P2P 性能测试与优化验证。</p></article>
+          <article class="topic-node"><span>03 / SGLANG</span><h3>调度与执行</h3><p>内存管理、Chunked Prefill、CUDA Graph、调度源码、Router 与传输引擎适配。</p></article>
+          <article class="topic-node"><span>04 / GPU</span><h3>Kernel & GEMM</h3><p>矩阵计算、CUTLASS、CUDA Kernel 优化原理、NCCL-tests 多机多卡测试。</p></article>
+          <article class="topic-node topic-node-accent"><span>05 / MODELS</span><h3>DeepSeek / Qwen</h3><p>DeepSeek-R1、DeepSeek-V4、Qwen3-30B-A3B-FP8 等模型在 4090 环境下的部署与性能观察。</p></article>
+          <article class="topic-node"><span>06 / ACCELERATOR</span><h3>FlexNPU</h3><p>Ascend 910B3、多卡推理、热迁移恢复、设备侧缓存与传输链路。</p></article>
+        </div>
+      </section>
+
       <section id="projects" class="home-section" aria-labelledby="projects-title">
         <div class="section-marker">SELECTED WORK</div>
-        <div class="section-heading-row"><h2 id="projects-title">把兴趣变成可以运行的东西。</h2><span>PUBLIC / LEARNING</span></div>
+        <div class="section-heading-row"><h2 id="projects-title">代码、实验和判断。</h2><span>PUBLIC / PRACTICE</span></div>
         <div class="project-grid">
           <article class="project-feature">
             <div class="project-topline"><span>01 / INFERENCE ENGINE</span><a href="https://github.com/world-cyj/MinivLLM_plus" target="_blank" rel="noreferrer" aria-label="打开 MinivLLM_plus">↗</a></div>
             <h3>MinivLLM_plus</h3>
-            <p>围绕 Mini-vLLM 的推理流程进行学习与实现，关注调度、Continuous Batching、PagedAttention 和 KV Cache 的关键路径。</p>
-            <div class="project-tags"><span>Python</span><span>PyTorch</span><span>KV Cache</span></div>
+            <p>用一个可读的推理引擎理解 Scheduler、BlockManager、PagedAttention、Prefix Cache 和 Decode Kernel。</p>
+            <div class="project-tags"><span>Python</span><span>PyTorch</span><span>Qwen3-32B</span></div>
           </article>
           <article class="project-card">
-            <div class="project-topline"><span>02 / SYSTEMS PRACTICE</span><a href="https://github.com/world-cyj/AI-System-Performance-Lab" target="_blank" rel="noreferrer" aria-label="打开 AI System Performance Lab">↗</a></div>
+            <div class="project-topline"><span>02 / PERFORMANCE LAB</span><a href="https://github.com/world-cyj/AI-System-Performance-Lab" target="_blank" rel="noreferrer" aria-label="打开 AI System Performance Lab">↗</a></div>
             <h3>AI System Performance Lab</h3>
-            <p>学习 / 研究实践项目，记录 GPU、推理服务和系统性能分析。</p>
+            <p>学习 / 研究实践项目，整理 GPU、推理服务、性能建模和系统实验。</p>
             <div class="project-tags"><span>CUDA</span><span>GPU</span><span>Fork</span></div>
           </article>
           <article class="project-card project-card-accent">
-            <div class="project-topline"><span>03 / PERFORMANCE</span><span class="project-signal">●</span></div>
-            <h3>GPU Benchmark / CUTLASS</h3>
-            <p>从 GEMM 数据类型、硬件代际和编译参数出发，构建可解释的性能实验。</p>
-            <div class="project-tags"><span>CUTLASS</span><span>GEMM</span><span>Benchmark</span></div>
+            <div class="project-topline"><span>03 / ENGINEERING PRACTICE</span><span class="project-signal">●</span></div>
+            <h3>Backend & IaaS</h3>
+            <p>从资源管理、运营排障到可观测性，把 AI Infra 做成可交付的服务。</p>
+            <div class="project-tags"><span>Go</span><span>Kubernetes</span><span>Grafana</span></div>
           </article>
         </div>
       </section>
 
-      <section id="research" class="home-section research-section" aria-labelledby="research-title">
-        <div class="section-marker">RESEARCH & LEARNING</div>
-        <div class="research-grid">
-          <div>
-            <h2 id="research-title">把问题留在<br>系统的上下文里。</h2>
-            <p>研究兴趣集中在分域 AI 加速器、多租户推理调度、推理性能建模与资源形态感知。</p>
-          </div>
-          <div class="research-list">
-            <div class="research-row"><span>01</span><div><strong>Mini-vLLM + Qwen3-32B</strong><p>调度、Prefix Cache、Decode Kernel 与压力测试。</p></div></div>
-            <div class="research-row"><span>02</span><div><strong>第一作者专利交底</strong><p>一种分域 AI 加速器多租户推理的资源形态感知调度方法及系统。</p></div></div>
-            <div class="research-row"><span>03</span><div><strong>论文投稿</strong><p>KSEM 2025 / SoCC 2026，状态以投稿记录为准。</p></div></div>
-          </div>
+      <section class="home-section evidence-section" aria-labelledby="evidence-title">
+        <div class="section-marker">SELECTED EVIDENCE</div>
+        <div class="section-heading-row"><h2 id="evidence-title">我关注可验证的结果。</h2><span>FROM PRACTICE</span></div>
+        <div class="evidence-grid">
+          <div class="evidence-item"><strong>+7.80%</strong><span>RTX 4090 8 卡环境下，CUTLASS FP16 相对原 Benchmark 的提升</span></div>
+          <div class="evidence-item"><strong>+23.7%</strong><span>H100 FP32 Benchmark 优化结果，约 74.3% 理论峰值利用率</span></div>
+          <div class="evidence-item"><strong>4.5s</strong><span>多卡推理迁移场景中的最大 restore 时间观察值</span></div>
+          <div class="evidence-item"><strong>0.7% / 2.2%</strong><span>8 / 64 并发下，单机多 Pod 平均吞吐提升观察值</span></div>
         </div>
       </section>
 
       <section class="home-section toolkit-section" aria-labelledby="toolkit-title">
         <div class="section-marker">TOOLKIT</div>
-        <div class="section-heading-row"><h2 id="toolkit-title">我用什么把系统做出来。</h2><span>LANGUAGE → PLATFORM</span></div>
+        <div class="section-heading-row"><h2 id="toolkit-title">一套从服务到硬件的工具箱。</h2><span>LANGUAGE → PLATFORM</span></div>
         <div class="toolkit-grid">
           <div><span>LANGUAGES</span><strong>Go · C++ · Python</strong></div>
           <div><span>BACKEND</span><strong>MySQL · Docker · Kubernetes</strong></div>
-          <div><span>AI SYSTEMS</span><strong>vLLM · Triton · PyTorch · CUDA</strong></div>
-          <div><span>PLATFORM</span><strong>Prometheus · Grafana · Ascend</strong></div>
+          <div><span>AI SYSTEMS</span><strong>vLLM · SGLang · Triton · PyTorch</strong></div>
+          <div><span>PERFORMANCE</span><strong>CUDA · CUTLASS · NCCL · Prometheus</strong></div>
+        </div>
+      </section>
+
+      <section class="home-section education-section" aria-labelledby="education-title">
+        <div class="section-marker">EDUCATION & OUTPUT</div>
+        <div class="education-grid">
+          <div><h2 id="education-title">持续学习，<br>持续输出。</h2><p>把学习笔记、实验和公开项目放在同一条线上，让每一次理解都尽量留下可复用的证据。</p></div>
+          <div class="education-list">
+            <div><span>2024.09 — 2027.06</span><strong>深圳大学 · 计算机科学与技术硕士</strong></div>
+            <div><span>2020.09 — 2024.06</span><strong>天津科技大学 · 自动化本科</strong></div>
+            <div><span>RESEARCH</span><strong>分域 AI 加速器 · 多租户推理 · 性能建模</strong></div>
+          </div>
         </div>
       </section>
 
