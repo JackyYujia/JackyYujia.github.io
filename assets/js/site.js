@@ -11,6 +11,8 @@
   const storedTheme = window.localStorage.getItem("caoyujia-theme");
   if (storedTheme === "light" || storedTheme === "dark") {
     root.dataset.theme = storedTheme;
+  } else {
+    root.dataset.theme = "light";
   }
 
   function updateThemeLabel() {
