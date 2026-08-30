@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0">
+  <channel>
+    <title>caoyujia / Notebook</title>
+    <link>https://caoyujia.github.io/</link>
+    <description>AI Infra、后端系统与云基础设施技术笔记。</description>
+    <item><title>用 Mini-vLLM 理解一条推理请求</title><link>https://caoyujia.github.io/posts/2026-08-24-minivllm-qwen3-32b.html</link><pubDate>Mon, 24 Aug 2026 00:00:00 +0800</pubDate></item>
+    <item><title>PD 分离之后，KV Cache 成了什么</title><link>https://caoyujia.github.io/posts/2026-08-18-kv-cache-pd-separation.html</link><pubDate>Tue, 18 Aug 2026 00:00:00 +0800</pubDate></item>
+    <item><title>GPU Benchmark 不只是跑一个数字</title><link>https://caoyujia.github.io/posts/2026-08-10-cutlass-gpu-benchmark.html</link><pubDate>Mon, 10 Aug 2026 00:00:00 +0800</pubDate></item>
+    <item><title>把 AI Systems 学习做成可复现的实验</title><link>https://caoyujia.github.io/posts/2026-07-30-ai-system-performance-lab.html</link><pubDate>Thu, 30 Jul 2026 00:00:00 +0800</pubDate></item>
+  </channel>
+</rss>
