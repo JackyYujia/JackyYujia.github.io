@@ -3,10 +3,10 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="description" content="曹雨佳的个人主页：AI Infra、后端系统、云基础设施与大模型推理。">
+  <meta name="description" content="Jacky Yujia 曹雨佳的个人主页：AI Infra、Backend、Cloud Native。">
   <meta name="theme-color" content="#f4f7fa">
-  <meta property="og:title" content="JackyYujia / AI Infra Engineer">
-  <meta property="og:description" content="AI Infra、后端系统、云基础设施与大模型推理。">
+  <meta property="og:title" content="Jacky Yujia / AI Infra Engineer">
+  <meta property="og:description" content="大模型推理系统、算力基础设施与后端工程。">
   <meta property="og:type" content="website">
   <title>JackyYujia / AI Infra Engineer</title>
   <link rel="stylesheet" href="assets/css/style.css">
@@ -17,15 +17,20 @@
     <div class="profile">
       <a href="#top" aria-label="返回顶部"><img class="avatar" src="assets/img/avatar.jpg" alt="曹雨佳头像"></a>
       <a class="site-title" href="#top">JackyYujia</a>
-      <p class="site-subtitle">把复杂系统做成可靠的基础设施。</p>
-      <div class="site-label">AI INFRA / BACKEND / SYSTEMS</div>
+      <p class="site-subtitle">Jacky Yujia · 曹雨佳</p>
+      <div class="site-label">AI INFRA / BACKEND / CLOUD NATIVE</div>
+      <div class="profile-stats">
+        <span><strong>32</strong> repositories</span>
+        <span><strong>5</strong> followers</span>
+      </div>
     </div>
     <nav class="nav" aria-label="主页章节">
-      <a class="nav-link" aria-current="page" href="#top"><span class="nav-icon">⌂</span>主页</a>
+      <a class="nav-link" aria-current="page" href="#about"><span class="nav-icon">i</span>关于</a>
+      <a class="nav-link" href="#focus"><span class="nav-icon">◎</span>关注</a>
       <a class="nav-link" href="#experience"><span class="nav-icon">↳</span>经历</a>
-      <a class="nav-link" href="#research"><span class="nav-icon">∴</span>研究</a>
+      <a class="nav-link" href="#study"><span class="nav-icon">∴</span>学习</a>
       <a class="nav-link" href="#projects"><span class="nav-icon">□</span>项目</a>
-      <a class="nav-link" href="#repository-map"><span class="nav-icon">≡</span>仓库</a>
+      <a class="nav-link" href="#repositories"><span class="nav-icon">≡</span>仓库</a>
       <a class="nav-link" href="#contact"><span class="nav-icon">@</span>联系</a>
     </nav>
     <div class="sidebar-bottom">
@@ -37,210 +42,187 @@
 
   <main class="site-main">
     <header class="topbar">
-      <div class="breadcrumb"><strong>PROFILE</strong> <span>/</span> CAOYUJIA</div>
+      <div class="breadcrumb"><strong>JACKYYUJIA</strong> <span>/</span> PROFILE</div>
       <div class="topbar-actions">
         <button class="icon-button mobile-menu" data-menu-toggle aria-label="打开导航" aria-expanded="false" title="打开导航">☰</button>
         <button class="icon-button" data-theme-toggle aria-label="切换主题" title="切换主题">◐</button>
       </div>
     </header>
 
-    <div class="page-wrap home-wrap">
-      <section class="profile-hero" aria-labelledby="profile-title">
-        <div class="profile-hero-main">
-          <div class="hero-kicker">CAOYUJIA / SHENZHEN / AI INFRA</div>
-          <h1 id="profile-title">让模型跑起来，<br><span>让系统稳下来。</span></h1>
-          <p class="hero-summary">我是曹雨佳，专注于 AI Infra、后端系统和云基础设施。我的工作横跨推理引擎、缓存传输、GPU 性能与分布式资源管理。</p>
+    <div class="page-wrap directory-wrap">
+      <section id="about" class="directory-hero" aria-labelledby="profile-title">
+        <div>
+          <div class="hero-kicker">JACKY YUJIA / 曹雨佳</div>
+          <h1 id="profile-title">AI Infra<br><span>Backend · Cloud Native</span></h1>
+          <p>专注于大模型推理系统、算力基础设施与后端工程。</p>
           <div class="hero-actions">
-            <a class="primary-action" href="mailto:cyj2582329754@gmail.com">联系我 <span>↗</span></a>
-            <a class="secondary-action" href="https://github.com/JackyYujia" target="_blank" rel="noreferrer">查看 GitHub <span>↗</span></a>
+            <a class="primary-action" href="mailto:cyj2582329754@gmail.com">Email <span>↗</span></a>
+            <a class="secondary-action" href="https://github.com/JackyYujia" target="_blank" rel="noreferrer">GitHub <span>↗</span></a>
           </div>
         </div>
-        <aside class="hero-sidepanel" aria-label="个人状态">
-          <div class="sidepanel-top"><span>PROFILE / 01</span><span class="status-dot">●</span></div>
-          <div class="sidepanel-title">Backend<br>to Silicon.</div>
-          <div class="sidepanel-copy">从 API、调度器和缓存，到 GPU kernel 与计算基础设施。</div>
-          <div class="sidepanel-line"></div>
-          <div class="sidepanel-row"><span>NOW</span><strong>AI Systems</strong></div>
-          <div class="sidepanel-row"><span>BASE</span><strong>Shenzhen</strong></div>
+        <aside class="directory-summary">
+          <div><span>EDUCATION</span><strong>深圳大学 · 计算机科学与技术硕士</strong></div>
+          <div><span>LOCATION</span><strong>Shenzhen, China</strong></div>
+          <div><span>PATH</span><strong>Backend → AI Systems → GPU / NPU Infrastructure</strong></div>
         </aside>
-        <div class="hero-facts">
-          <div><span>ROLE</span><strong>AI Infra / Backend</strong></div>
-          <div><span>EDUCATION</span><strong>Shenzhen University · MSc</strong></div>
-          <div><span>FOCUS</span><strong>Inference · Systems · Performance</strong></div>
+      </section>
+
+      <section class="directory-section about-copy">
+        <div class="directory-heading"><span>ABOUT</span><h2>关于我</h2></div>
+        <div class="directory-body prose-copy">
+          <p>你好，我是曹雨佳，目前在深圳大学攻读计算机科学与技术硕士。</p>
+          <p>我的工作和学习主要围绕 AI Infra 展开：从后端服务、资源管理和可观测性，到 vLLM / SGLang 推理引擎、KV Cache 传输、PD 分离、GPU Kernel 与多设备迁移。我更关心系统在真实负载下如何运行、如何定位瓶颈，以及如何把一次实验沉淀成可复用的工程能力。</p>
+          <code>Backend → AI Systems → GPU / NPU Infrastructure</code>
         </div>
       </section>
 
-      <section class="home-section now-section" aria-labelledby="now-title">
-        <div class="section-marker">WORKING MODEL</div>
-        <div class="now-grid">
+      <section id="focus" class="directory-section">
+        <div class="directory-heading"><span>NOW</span><h2>当前关注</h2></div>
+        <div class="directory-body focus-directory">
+          <div><strong>LLM Inference</strong><span>vLLM · SGLang · TensorRT-LLM · MiniVLLM</span></div>
+          <div><strong>PD 分离与 KV Cache</strong><span>Prefill / Decode · P2P · Prefix Cache · Layerwise Cache</span></div>
+          <div><strong>推理传输链路</strong><span>Mooncake · LMCache · NIXL · RDMA / RoCE · D2D</span></div>
+          <div><strong>GPU 与性能工程</strong><span>CUDA Graph · CUTLASS · GEMM · FlashMLA · NCCL-tests</span></div>
+          <div><strong>模型部署与评测</strong><span>DeepSeek-R1 · DeepSeek-V4 · Qwen3 · KTransformers</span></div>
+          <div><strong>异构算力基础设施</strong><span>Ascend 910B3 · FlexNPU · 多卡推理 · 热迁移恢复</span></div>
+          <div><strong>后端与平台</strong><span>Go · Kubernetes · Docker · MySQL · Prometheus · Grafana</span></div>
+        </div>
+      </section>
+
+      <section id="experience" class="directory-section">
+        <div class="directory-heading"><span>WORK</span><h2>工作经历</h2></div>
+        <div class="directory-body experience-directory">
+          <article>
+            <div class="entry-meta"><span>2026.05 — 至今</span><b>CLOUD / IAAS</b></div>
+            <h3>百度国际科技（深圳）有限公司</h3>
+            <p class="entry-role">IaaS 研发实习生（后台功能开发） · 分布式云边缘计算组</p>
+            <ul><li>参与 AICP 算力平台建设。</li></ul>
+          </article>
+          <article>
+            <div class="entry-meta"><span>2025.03 — 2026.01</span><b>AI INFRA</b></div>
+            <h3>深圳华为云计算技术有限公司</h3>
+            <p class="entry-role">AI Infra / 后端开发实习生 · 云业务架构与设计部（ICT BG）</p>
+            <ul><li>参与 FlexNPU 大模型推理热迁移与传输链路研发。</li></ul>
+          </article>
+        </div>
+      </section>
+
+      <section id="study" class="directory-section">
+        <div class="directory-heading"><span>INDEX</span><h2>学习与研究目录</h2></div>
+        <div class="directory-body outline-directory">
+          <article>
+            <header><span>01</span><h3>PD 分离与传输</h3></header>
+            <ul>
+              <li>Mooncake 技术调研与源码阅读</li><li>vLLM 基于 P2P / NCCL 的 PD 分离</li><li>SGLang + Mooncake PD 分离部署</li><li>P2P KV Cache 传输设计与实现</li><li>PyNCCL Connector / StatelessProcessGroup 测试</li><li>RDMA、RoCE、HCCL、NCCL 与 D2D 传输</li><li>Layerwise 多级缓存策略与 Cache Reuse</li>
+            </ul>
+          </article>
+          <article>
+            <header><span>02</span><h3>vLLM</h3></header>
+            <ul>
+              <li>vLLM v1 推理框架与调度路径</li><li>vLLM P2P KV Cache 传输</li><li>vLLM + LMCache 性能评测</li><li>FlashMLA 性能验证</li><li>Prefix Cache / Decode Cache Reuse</li><li>Chunked Prefill、Scheduler 与 BlockManager</li><li>Connector 生命周期和异常恢复</li>
+            </ul>
+          </article>
+          <article>
+            <header><span>03</span><h3>SGLang</h3></header>
+            <ul>
+              <li>SGLang 框架结构与使用方式</li><li>SGLang 内存管理技术</li><li>Chunked Prefill 与 CUDA Graph</li><li>CUDA Kernel 优化原理与 SGLang 实现机制</li><li>Router、调度器与传输引擎适配</li><li>源码阅读、目录整理和分享计划</li><li>PD 分离与 P2P 传输性能验证</li>
+            </ul>
+          </article>
+          <article>
+            <header><span>04</span><h3>GPU 与性能工程</h3></header>
+            <ul>
+              <li>GPU 矩阵计算与 GEMM 性能测试</li><li>CUTLASS TensorOp / SIMT 双路径</li><li>Tile Size、Pipeline Stage、Cluster、Swizzle 调优</li><li>CUDA Kernel、CUDA Event 与 Kernel 延迟</li><li>CUDA Graph 性能验证</li><li>NCCL-tests 多机多卡测试</li><li>nsys / ncu 性能分析与压测方法</li>
+            </ul>
+          </article>
+          <article>
+            <header><span>05</span><h3>模型与推理实践</h3></header>
+            <ul>
+              <li>DeepSeek-R1 在 RTX 4090 环境下的部署和性能观察</li><li>DeepSeek-V4 性能资料整理与推理路径跟踪</li><li>Qwen3-30B-A3B-FP8 的 1P1D / PD 分离压测</li><li>Qwen3-32B 双 GPU 部署与 Mini-vLLM 优化</li><li>KTransformers 部署 DeepSeek-R1</li><li>TensorRT-LLM 技术学习</li><li>FlashAttention、FlashMLA、DeepEP、DeepGEMM 与 EPLB</li>
+            </ul>
+          </article>
+          <article>
+            <header><span>06</span><h3>NPU 与异构基础设施</h3></header>
+            <ul>
+              <li>FlexNPU 大模型推理热迁移</li><li>Ascend 910B3 多卡推理与恢复</li><li>Device / Host / External Cache 分层</li><li>通信域初始化、状态同步与超时恢复</li><li>业务无感迁移、弹性伸缩和高可用推理</li>
+            </ul>
+          </article>
+        </div>
+      </section>
+
+      <section id="projects" class="directory-section">
+        <div class="directory-heading"><span>WORKS</span><h2>精选项目</h2></div>
+        <div class="directory-body featured-directory">
+          <a href="https://github.com/JackyYujia/MinivLLM_plus" target="_blank" rel="noreferrer"><div><strong>MinivLLM_plus</strong><p>Mini-vLLM 推理流程、Scheduler、BlockManager、PagedAttention、Prefix Cache、Decode Kernel 和 Qwen3-32B 部署。</p></div><span>Original · Python ↗</span></a>
+          <a href="https://github.com/JackyYujia/AI-System-Performance-Lab" target="_blank" rel="noreferrer"><div><strong>AI-System-Performance-Lab</strong><p>GPU、AI Systems、推理服务和性能工程相关实验与资料沉淀。</p></div><span>Learning · Fork ↗</span></a>
+          <a href="https://github.com/JackyYujia/Single-Card-Multi-Model-Colocation" target="_blank" rel="noreferrer"><div><strong>Single-Card-Multi-Model-Colocation</strong><p>单卡多模型共置、资源分配与推理调度实验。</p></div><span>Original · Python ↗</span></a>
+          <a href="https://github.com/JackyYujia/npu_ie" target="_blank" rel="noreferrer"><div><strong>npu_ie</strong><p>NPU 设备侧推理、模型执行和异构算力工程实践。</p></div><span>Original · Python ↗</span></a>
+        </div>
+      </section>
+
+      <section id="repositories" class="directory-section">
+        <div class="directory-heading"><span>REPOS</span><h2>公开仓库地图</h2></div>
+        <div class="directory-body repository-directory">
           <div>
-            <h2 id="now-title">我习惯从<br>系统边界开始。</h2>
-            <p>一个性能问题通常不只属于某一个组件。我要看的是请求、状态、数据和资源怎样一起流动。</p>
+            <h3>AI Systems / Performance</h3>
+            <a href="https://github.com/JackyYujia/MinivLLM_plus"><strong>MinivLLM_plus</strong><span>Mini-vLLM 推理引擎</span></a>
+            <a href="https://github.com/JackyYujia/AI-System-Performance-Lab"><strong>AI-System-Performance-Lab</strong><span>学习 / 研究实践 · Fork</span></a>
+            <a href="https://github.com/JackyYujia/Single-Card-Multi-Model-Colocation"><strong>Single-Card-Multi-Model-Colocation</strong><span>单卡多模型共置</span></a>
+            <a href="https://github.com/JackyYujia/npu_ie"><strong>npu_ie</strong><span>NPU 工程实践</span></a>
+            <a href="https://github.com/JackyYujia/vllm-omni"><strong>vllm-omni</strong><span>Omni 推理学习 · Fork</span></a>
           </div>
-          <div class="now-list">
-            <div class="now-item"><span class="now-index">01</span><div><strong>推理系统</strong><small>vLLM · SGLang · TensorRT-LLM · MiniVLLM</small></div></div>
-            <div class="now-item"><span class="now-index">02</span><div><strong>缓存与传输</strong><small>KV Cache · PD 分离 · P2P · D2D · 冷热迁移</small></div></div>
-            <div class="now-item"><span class="now-index">03</span><div><strong>算力与性能</strong><small>CUDA · CUTLASS · GEMM · NCCL-tests · GPU Benchmark</small></div></div>
-            <div class="now-item"><span class="now-index">04</span><div><strong>工程平台</strong><small>Go Services · Kubernetes · Prometheus · Grafana</small></div></div>
+          <div>
+            <h3>Backend / Infra</h3>
+            <a href="https://github.com/JackyYujia/adapnpu_serve"><strong>adapnpu_serve</strong><span>推理服务与调度实验</span></a>
+            <a href="https://github.com/JackyYujia/12306_demo"><strong>12306_demo</strong><span>Java 后端项目实践</span></a>
+            <a href="https://github.com/JackyYujia/MediFlow"><strong>MediFlow</strong><span>JavaScript 应用项目</span></a>
+            <a href="https://github.com/JackyYujia/LLM_codespace"><strong>LLM_codespace</strong><span>LLM 学习空间</span></a>
+            <a href="https://github.com/JackyYujia/agent-skills"><strong>agent-skills</strong><span>AI Coding Skills · Fork</span></a>
           </div>
-        </div>
-      </section>
-
-      <section id="experience" class="home-section" aria-labelledby="experience-title">
-        <div class="section-marker">EXPERIENCE</div>
-        <div class="section-heading-row"><h2 id="experience-title">在真实的算力和服务里工作。</h2><span>2025 — NOW</span></div>
-        <div class="experience-list">
-          <article class="experience-item">
-            <div class="experience-time">2026.05<br>至今</div>
-            <div class="experience-main">
-              <h3>百度国际科技（深圳）有限公司</h3>
-              <p class="experience-role">IaaS 研发实习生（后台功能开发） · 分布式云边缘计算组</p>
-              <p>参与 AICP / OPS 平台后台能力建设，覆盖智算中心、实例管理、集群服务、白名单配额、准入配置和审计日志等资源管理场景；使用 Go 完成后端接口、DAO / Service 逻辑、联调和问题排查，并参与 GPU Benchmark / CUTLASS 性能实践。</p>
-            </div>
-            <div class="experience-domain">CLOUD<br>EDGE</div>
-          </article>
-          <article class="experience-item">
-            <div class="experience-time">2025.03<br>2026.01</div>
-            <div class="experience-main">
-              <h3>深圳华为云计算技术有限公司</h3>
-              <p class="experience-role">AI Infra / 后端开发实习生 · 云业务架构与设计部（ICT BG）</p>
-              <p>参与 FlexNPU 大模型推理基础设施研发，围绕 PD 分离下的 KV Cache 传输、D2D 数据搬运、冷热迁移和多卡推理任务恢复开展工程验证；关注传输任务生命周期、缓存元信息、状态同步、超时恢复和性能瓶颈。</p>
-            </div>
-            <div class="experience-domain">AI<br>INFRA</div>
-          </article>
-        </div>
-      </section>
-
-      <section id="research" class="home-section research-section" aria-labelledby="research-title">
-        <div class="section-marker">LEARNING MAP</div>
-        <div class="section-heading-row"><h2 id="research-title">把零散的学习<br>组织成一张地图。</h2><span>AI INFRA / 2026</span></div>
-        <div class="topic-map">
-          <article class="topic-node topic-node-large"><span>01 / PD SEPARATION</span><h3>Prefill / Decode</h3><p>Mooncake 技术调研、vLLM 与 SGLang PD 分离、P2P KV Cache 传输、单实例与多实例对比。</p><div class="topic-bottom">KV Cache · P2P · layerwise</div></article>
-          <article class="topic-node"><span>02 / VLLM</span><h3>推理引擎</h3><p>vLLM v1 性能评测、FlashMLA、Prefix Cache、P2P 性能测试与优化验证。</p></article>
-          <article class="topic-node"><span>03 / SGLANG</span><h3>调度与执行</h3><p>内存管理、Chunked Prefill、CUDA Graph、调度源码、Router 与传输引擎适配。</p></article>
-          <article class="topic-node"><span>04 / GPU</span><h3>Kernel & GEMM</h3><p>矩阵计算、CUTLASS、CUDA Kernel 优化原理、NCCL-tests 多机多卡测试。</p></article>
-          <article class="topic-node topic-node-accent"><span>05 / MODELS</span><h3>DeepSeek / Qwen</h3><p>DeepSeek-R1、DeepSeek-V4、Qwen3-30B-A3B-FP8 等模型在 4090 环境下的部署与性能观察。</p></article>
-          <article class="topic-node"><span>06 / ACCELERATOR</span><h3>FlexNPU</h3><p>Ascend 910B3、多卡推理、热迁移恢复、设备侧缓存与传输链路。</p></article>
-        </div>
-      </section>
-
-      <section class="home-section study-index-section" aria-labelledby="study-index-title">
-        <div class="section-marker">STUDY INDEX</div>
-        <div class="section-heading-row"><h2 id="study-index-title">一份持续展开的<br>AI Infra 目录。</h2><span>NOTES / EXPERIMENTS / REVIEWS</span></div>
-        <div class="study-index-grid">
-          <div class="study-column">
-            <div class="study-column-head"><span>01 — SYSTEMS</span><span>7 topics</span></div>
-            <a class="study-item" href="#research"><strong>PD 分离</strong><span>Mooncake · P2P · Layerwise Cache · 1P1D</span><b>↗</b></a>
-            <a class="study-item" href="#research"><strong>vLLM</strong><span>vLLM v1 · Scheduler · Prefix Cache · FlashMLA</span><b>↗</b></a>
-            <a class="study-item" href="#research"><strong>SGLang</strong><span>Memory Manager · Chunked Prefill · Router · Source</span><b>↗</b></a>
-            <a class="study-item" href="#research"><strong>KV Cache</strong><span>Cache Reuse · P2P Transfer · Multi-level Cache</span><b>↗</b></a>
-          </div>
-          <div class="study-column">
-            <div class="study-column-head"><span>02 — HARDWARE</span><span>6 topics</span></div>
-            <a class="study-item" href="#research"><strong>GPU / GEMM</strong><span>CUDA · CUTLASS · TensorOp · SIMT · nsys / ncu</span><b>↗</b></a>
-            <a class="study-item" href="#research"><strong>DeepSeek / Qwen</strong><span>R1 · V4 · Qwen3-30B-A3B-FP8 · 4090</span><b>↗</b></a>
-            <a class="study-item" href="#research"><strong>TensorRT-LLM</strong><span>Runtime · kernels · deployment notes</span><b>↗</b></a>
-            <a class="study-item" href="#research"><strong>NPU / FlexNPU</strong><span>Ascend 910B3 · D2D · migration · restore</span><b>↗</b></a>
-          </div>
-        </div>
-        <div class="study-footnote">学习资料覆盖从模型、调度和缓存，到通信、kernel、硬件和服务交付的完整链路。</div>
-      </section>
-
-      <section id="projects" class="home-section" aria-labelledby="projects-title">
-        <div class="section-marker">SELECTED WORK</div>
-        <div class="section-heading-row"><h2 id="projects-title">代码、实验和判断。</h2><span>PUBLIC / PRACTICE</span></div>
-        <div class="project-grid">
-          <article class="project-feature">
-            <div class="project-topline"><span>01 / INFERENCE ENGINE</span><a href="https://github.com/JackyYujia/MinivLLM_plus" target="_blank" rel="noreferrer" aria-label="打开 MinivLLM_plus">↗</a></div>
-            <h3>MinivLLM_plus</h3>
-            <p>用一个可读的推理引擎理解 Scheduler、BlockManager、PagedAttention、Prefix Cache 和 Decode Kernel。</p>
-            <div class="project-tags"><span>Python</span><span>PyTorch</span><span>Qwen3-32B</span></div>
-          </article>
-          <article class="project-card">
-            <div class="project-topline"><span>02 / PERFORMANCE LAB</span><a href="https://github.com/JackyYujia/AI-System-Performance-Lab" target="_blank" rel="noreferrer" aria-label="打开 AI System Performance Lab">↗</a></div>
-            <h3>AI System Performance Lab</h3>
-            <p>学习 / 研究实践项目，整理 GPU、推理服务、性能建模和系统实验。</p>
-            <div class="project-tags"><span>CUDA</span><span>GPU</span><span>Fork</span></div>
-          </article>
-          <article class="project-card project-card-accent">
-            <div class="project-topline"><span>03 / ENGINEERING PRACTICE</span><span class="project-signal">●</span></div>
-            <h3>Backend & IaaS</h3>
-            <p>从资源管理、运营排障到可观测性，把 AI Infra 做成可交付的服务。</p>
-            <div class="project-tags"><span>Go</span><span>Kubernetes</span><span>Grafana</span></div>
-          </article>
-        </div>
-      </section>
-
-      <section id="repository-map" class="home-section repository-section" aria-labelledby="repository-title">
-        <div class="section-marker">PUBLIC REPOSITORY MAP</div>
-        <div class="section-heading-row"><h2 id="repository-title">公开仓库不是清单，<br>是工作轨迹。</h2><span>WORLD-CYJ / PUBLIC</span></div>
-        <div class="repository-grid">
-          <div class="repository-group">
-            <div class="repository-group-head"><span>AI SYSTEMS</span><span>ORIGINAL / PRACTICE</span></div>
-            <a class="repository-row" href="https://github.com/JackyYujia/MinivLLM_plus" target="_blank" rel="noreferrer"><strong>MinivLLM_plus</strong><span>Mini-vLLM inference engine</span><b>↗</b></a>
-            <a class="repository-row" href="https://github.com/JackyYujia/Single-Card-Multi-Model-Colocation" target="_blank" rel="noreferrer"><strong>Single-Card-Multi-Model-Colocation</strong><span>multi-model colocation</span><b>↗</b></a>
-            <a class="repository-row" href="https://github.com/JackyYujia/adapnpu_serve" target="_blank" rel="noreferrer"><strong>adapnpu_serve</strong><span>inference service research</span><b>↗</b></a>
-            <a class="repository-row" href="https://github.com/JackyYujia/npu_ie" target="_blank" rel="noreferrer"><strong>npu_ie</strong><span>NPU engineering practice</span><b>↗</b></a>
-          </div>
-          <div class="repository-group">
-            <div class="repository-group-head"><span>BACKEND / LEARNING</span><span>PUBLIC / FORK MARKED</span></div>
-            <a class="repository-row" href="https://github.com/JackyYujia/12306_demo" target="_blank" rel="noreferrer"><strong>12306_demo</strong><span>Java backend practice</span><b>↗</b></a>
-            <a class="repository-row" href="https://github.com/JackyYujia/claude-code-deep-dive" target="_blank" rel="noreferrer"><strong>claude-code-deep-dive</strong><span>source-code research report</span><b>↗</b></a>
-            <a class="repository-row" href="https://github.com/JackyYujia/agent-skills" target="_blank" rel="noreferrer"><strong>agent-skills <em>Fork</em></strong><span>AI coding agent skills</span><b>↗</b></a>
-            <a class="repository-row" href="https://github.com/JackyYujia/vllm-omni" target="_blank" rel="noreferrer"><strong>vllm-omni <em>Fork</em></strong><span>omni-modality inference study</span><b>↗</b></a>
+          <div>
+            <h3>Learning Archive</h3>
+            <a href="https://github.com/JackyYujia/how-to-optim-algorithm-in-cuda"><strong>how-to-optim-algorithm-in-cuda</strong><span>CUDA 优化学习 · Fork</span></a>
+            <a href="https://github.com/JackyYujia/dive_into_deep_learning"><strong>dive_into_deep_learning</strong><span>深度学习课程笔记</span></a>
+            <a href="https://github.com/JackyYujia/LeetCode-Go"><strong>LeetCode-Go</strong><span>Go 题解 · Fork</span></a>
+            <a href="https://github.com/JackyYujia/AutoAgent"><strong>AutoAgent</strong><span>SpringAI Agent 学习 · Fork</span></a>
+            <a href="https://github.com/JackyYujia/claude-code-deep-dive"><strong>claude-code-deep-dive</strong><span>Claude Code 源码研究</span></a>
           </div>
         </div>
       </section>
 
-      <section class="home-section evidence-section" aria-labelledby="evidence-title">
-        <div class="section-marker">SELECTED EVIDENCE</div>
-        <div class="section-heading-row"><h2 id="evidence-title">我关注可验证的结果。</h2><span>FROM PRACTICE</span></div>
-        <div class="evidence-grid">
-          <div class="evidence-item"><strong>+7.80%</strong><span>RTX 4090 8 卡环境下，CUTLASS FP16 相对原 Benchmark 的提升</span></div>
-          <div class="evidence-item"><strong>+23.7%</strong><span>H100 FP32 Benchmark 优化结果，约 74.3% 理论峰值利用率</span></div>
-          <div class="evidence-item"><strong>4.5s</strong><span>多卡推理迁移场景中的最大 restore 时间观察值</span></div>
-          <div class="evidence-item"><strong>0.7% / 2.2%</strong><span>8 / 64 并发下，单机多 Pod 平均吞吐提升观察值</span></div>
+      <section class="directory-section">
+        <div class="directory-heading"><span>STACK</span><h2>技术栈</h2></div>
+        <div class="directory-body stack-directory">
+          <div><span>编程语言</span><strong>Go · C++ · Python · Java</strong></div>
+          <div><span>后端与平台</span><strong>REST API · gRPC · Beego · MySQL · Redis · Docker · Kubernetes · client-go</strong></div>
+          <div><span>AI Infra</span><strong>vLLM · SGLang · TensorRT-LLM · Triton · PyTorch · PagedAttention · KV Cache</strong></div>
+          <div><span>计算与通信</span><strong>CUDA · CUTLASS · CUDA Graph · GEMM · NCCL · HCCL · RDMA · RoCE · D2D</strong></div>
+          <div><span>观测与排障</span><strong>Prometheus · Grafana · Logs · Trace · GDB · CMake · nsys · ncu</strong></div>
         </div>
       </section>
 
-      <section class="home-section toolkit-section" aria-labelledby="toolkit-title">
-        <div class="section-marker">TOOLKIT</div>
-        <div class="section-heading-row"><h2 id="toolkit-title">一套从服务到硬件的工具箱。</h2><span>LANGUAGE → PLATFORM</span></div>
-        <div class="toolkit-grid">
-          <div><span>LANGUAGES</span><strong>Go · C++ · Python</strong></div>
-          <div><span>BACKEND</span><strong>MySQL · Docker · Kubernetes</strong></div>
-          <div><span>AI SYSTEMS</span><strong>vLLM · SGLang · Triton · PyTorch</strong></div>
-          <div><span>PERFORMANCE</span><strong>CUDA · CUTLASS · NCCL · Prometheus</strong></div>
+      <section class="directory-section">
+        <div class="directory-heading"><span>OUTPUT</span><h2>研究与输出</h2></div>
+        <div class="directory-body output-directory">
+          <div><span>PATENT</span><p>第一作者专利交底：一种分域 AI 加速器多租户推理的资源形态感知调度方法及系统。</p></div>
+          <div><span>KSEM 2025</span><p><em>A Review of Optimization Techniques for Large Language Model Inference</em>，第一作者论文投稿，状态以投稿记录为准。</p></div>
+          <div><span>SoCC 2026</span><p><em>AdapDomain: Residual-Shape Scheduling for Multi-Tenant Inference on Domain-Partitioned Accelerators</em>，第一作者论文投稿，状态以投稿记录为准。</p></div>
+          <div><span>HONORS</span><p>研究生学业奖学金一等奖，英语六级（CET-6）。</p></div>
         </div>
       </section>
 
-      <section class="home-section education-section" aria-labelledby="education-title">
-        <div class="section-marker">EDUCATION & OUTPUT</div>
-        <div class="education-grid">
-          <div><h2 id="education-title">持续学习，<br>持续输出。</h2><p>把学习笔记、实验和公开项目放在同一条线上，让每一次理解都尽量留下可复用的证据。</p></div>
-          <div class="education-list">
-            <div><span>2024.09 — 2027.06</span><strong>深圳大学 · 计算机科学与技术硕士</strong></div>
-            <div><span>2020.09 — 2024.06</span><strong>天津科技大学 · 自动化本科</strong></div>
-            <div><span>RESEARCH</span><strong>分域 AI 加速器 · 多租户推理 · 性能建模</strong></div>
-          </div>
-        </div>
-      </section>
-
-      <section id="contact" class="home-section contact-section" aria-labelledby="contact-title">
-        <div class="contact-copy">
-          <div class="section-marker">CONTACT</div>
-          <h2 id="contact-title">一起把系统<br>做得更清楚。</h2>
-          <p>如果你正在做 AI Infra、后端平台或大模型推理系统，欢迎交流。</p>
-        </div>
-        <div class="contact-links">
-          <a href="mailto:cyj2582329754@gmail.com"><span>Email</span><strong>cyj2582329754@gmail.com</strong><span>↗</span></a>
-          <a href="https://github.com/JackyYujia" target="_blank" rel="noreferrer"><span>GitHub</span><strong>github.com/JackyYujia</strong><span>↗</span></a>
+      <section id="contact" class="directory-section final-section">
+        <div class="directory-heading"><span>INFO</span><h2>教育与联系</h2></div>
+        <div class="directory-body final-directory">
+          <div><span>2024.09 — 2027.06</span><strong>深圳大学 · 计算机科学与技术硕士</strong></div>
+          <div><span>2020.09 — 2024.06</span><strong>天津科技大学 · 自动化本科</strong></div>
+          <a href="mailto:cyj2582329754@gmail.com"><span>EMAIL</span><strong>cyj2582329754@gmail.com</strong><b>↗</b></a>
+          <a href="https://github.com/JackyYujia"><span>GITHUB</span><strong>github.com/JackyYujia</strong><b>↗</b></a>
         </div>
       </section>
 
       <footer class="site-footer home-footer">
         <span>© <span data-year>2026</span> JackyYujia</span>
-        <span>AI Infra / Backend / Systems</span>
+        <span>Systems in motion.</span>
       </footer>
     </div>
   </main>
