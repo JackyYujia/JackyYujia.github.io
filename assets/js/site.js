@@ -1,5 +1,5 @@
 (function () {
-  const projectRoot = window.location.pathname.startsWith("/caoyujia.github.io") ? "/caoyujia.github.io" : "";
+  const projectRoot = "";
   const root = document.documentElement;
   const body = document.body;
   const themeButton = document.querySelector("[data-theme-toggle]");
